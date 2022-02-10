@@ -209,8 +209,8 @@ keymap {
 	lower_layer {
 		bindings = <
 			&kp N1		&kp N2 		&kp N3		&kp N4		&kp N5				&kp N6 		&kp N7		&kp N8		&kp N9		&kp N0
-			&kp GRAVE	&trans		&trans		&trans		&trans	 			&kc LEFT	&kc DOWN	&kc UP		&kc RIGHT	&kc SQT
-			&trans		&trans		&trans		&trans		&trans				&kc MINUS	&kc PLUS	&kc LBKT	&kc RBKT	&hm RSHIFT BSLH
+			&kp GRAVE	&trans		&trans		&trans		&trans	 			&kp LEFT	&kp DOWN	&kp UP		&kp RIGHT	&kp SQT
+			&trans		&trans		&trans		&trans		&trans				&kp MINUS	&kp PLUS	&kp LBKT	&kp RBKT	&hm RSHIFT BSLH
 									&trans		&trans		&trans				&trans		&trans		&trans
 		>;
 	};
@@ -218,7 +218,7 @@ keymap {
 	raise_layer {
 		bindings = <
 			&kp F1		&kp F2 		&kp F3		&kp F4		&kp F5				&kp F6 		&kp F7		&kp F8		&kp F9		&kp F10
-			&kp F11		&kc F12		&trans		&trans		&trans	 			&trans		&trans		&trans		&trans		&trans
+			&kp F11		&kp F12		&trans		&trans		&trans	 			&trans		&trans		&trans		&trans		&trans
 			&bt BT_PRV	&bt BT_NXT 	&bt BT_CLR	&trans		&trans				&trans		&trans		&trans		&trans		&trans
 									&trans		&trans		&trans				&trans		&trans		&trans
 		>;
@@ -227,7 +227,7 @@ keymap {
 	adjust_layer {
 		bindings = <
 			&kp F1		&kp F2 		&kp F3		&kp F4		&kp F5				&kp F6 		&kp F7		&kp F8		&kp F9		&kp F10
-			&kp F11		&kc F12		&trans		&trans		&trans	 			&trans		&trans		&trans		&trans		&trans
+			&kp F11		&kp F12		&trans		&trans		&trans	 			&trans		&trans		&trans		&trans		&trans
 			&bt BT_PRV	&bt BT_NXT 	&bt BT_CLR	&trans		&trans				&trans		&trans		&trans		&trans		&trans
 									&trans		&trans		&trans				&trans		&trans		&trans
 		>;
