@@ -27,6 +27,11 @@
             key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
+		combo_tab { 
+            timeout-ms = <50>;
+            key-positions = <11 12>;
+            bindings = <&kp TAB>;
+        };
     };
 
 behaviors {
