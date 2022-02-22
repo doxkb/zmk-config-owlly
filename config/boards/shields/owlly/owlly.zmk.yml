@@ -2,9 +2,10 @@ file_format: "1"
 id: owlly
 name: Owlly 
 type: shield
-url: https://github.com/davidphilipbarr/Sweep
-requires: [pro_micro]
-exposes: [i2c_oled]
+url:
+requires:
+  - pro_micro
+exposes:
 features:
   - keys
 siblings:
