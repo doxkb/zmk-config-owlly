@@ -88,7 +88,7 @@ keymap {
 	raise_layer {
 		bindings = <
 			&kp F1		&kp F2 		&kp F3		&kp F4		&kp F5				&kp F6 		&kp F7		&kp F8		&kp F9		&kp F10
-			&kp F11		&kp F12		&trans		&trans		&trans	 			&kp EQUAL	&kp LS(N9) 	&kp LS(N0)	&RA(RBKT)	&kp (LBKT)
+			&kp F11		&kp F12		&trans		&trans		&trans	 			&kp EQUAL	&kp LS(N9) 	&kp LS(N0)	&kp RA(BKT)	&kp (LBKT)
 			&trans		&trans	 	&trans		&trans		&trans				&kp MINUS   &kp RA(SQT) &kp RA(BSLH) &kp BSLH	&kp LS(BSLH)
 									&trans		&trans		&trans				&trans		&trans		&trans
 		>;
