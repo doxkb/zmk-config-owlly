@@ -81,7 +81,7 @@ keymap {
 			&kp N1		&kp N2 		&kp N3		&kp N4		&kp N5				&kp N6 		&kp N7		&kp N8		&kp N9		&kp N0
 			&trans		&trans		&trans		&trans		&trans	 			&kp LEFT	&kp DOWN	&kp UP		&kp RIGHT	&kp SQT
 			&kp C_PREV	&kp C_NEXT	&kp LEFT	&kp RIGHT	&trans				&kp MINUS	&kp PLUS	&kp LBKT	&kp RBKT	&hm RSHIFT BSLH
-									&trans		&trans		&trans				&trans		&trans		&trans
+									&kp LGUI	&trans		&trans				&trans		&trans		&trans
 		>;
 	};
 
